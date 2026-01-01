@@ -26,19 +26,7 @@ The above command should directly install all the dependencies required for the 
 To illustrate how to denoise DAS-VSP data using LMRFNet, let's start with a simple example.
 
 
-### 1.Training(denoised_train1.py)
-
-First of all,  load the dataset .mat file
-
-`parser.add_argument('--train_data', default='/home/zhangzeyuan1/d2sm-master/data/DAScleanpatch_zzy', type=str, help='path of train data')`
-`parser.add_argument('--zaosheng_data', default='/home/zhangzeyuan1/d2sm-master/data/DASnoisepatch_zzy', type=str, help='path of zaosheng data')`
-
-Next, load the LMRFNet denoising network.
-
-`from LMRFNetsfq import LMRFNet`
-
-
-### 2. Testing(denoise_test copy.py)
+### 1. Testing(denoise_test copy.py)
 
 First, import the DAS-VSP data.
 
